@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Account login issue",
+    "description": "The customer is unable to log in to their account. They have tried resetting the password but the link is not working.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-20T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Question about billing",
+    "description": "Customer needs to clarify a recent charge on their credit card. They believe there's a double charge.",
+    "customer": "Bob Smith",
+    "priority": "Medium",
+    "status": "New",
+    "createdAt": "2025-09-20T11:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Feature request: dark mode",
+    "description": "The customer would like to request a dark mode feature for the application interface.",
+    "customer": "Charlie Brown",
+    "priority": "Low",
+    "status": "New",
+    "createdAt": "2025-09-20T14:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Mobile app crashing on Android",
+    "description": "The mobile app crashes every time the customer tries to open the settings page on their Android device.",
+    "customer": "David Williams",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-21T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Can't access saved files",
+    "description": "Customer reports that their saved files are not appearing in their account. They suspect a synchronization issue.",
+    "customer": "Eva Davis",
+    "priority": "High",
+    "status": "New",
+    "createdAt": "2025-09-21T10:15:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Typo on pricing page",
+    "description": "Found a small typo in the description of the 'Pro' plan on the pricing page.",
+    "customer": "Frank White",
+    "priority": "Low",
+    "status": "New",
+    "createdAt": "2025-09-21T12:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Account verification failed",
+    "description": "Customer is trying to verify their account but is getting an 'Invalid Code' error, even after requesting a new code multiple times.",
+    "customer": "Grace Taylor",
+    "priority": "High",
+    "status": "New",
+    "createdAt": "2025-09-22T08:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Unable to change profile picture",
+    "description": "The 'Change Profile Picture' button is unresponsive on the user's profile page.",
+    "customer": "Henry Wilson",
+    "priority": "Medium",
+    "status": "New",
+    "createdAt": "2025-09-22T11:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Question about API documentation",
+    "description": "Customer needs clarification on the authentication process described in the API documentation.",
+    "customer": "Ivy Moore",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-22T13:45:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Application performance is slow",
+    "description": "User reports that the application has been running very slowly for the past few hours, especially when loading dashboards.",
+    "customer": "Jack Lewis",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-23T09:10:00Z"
+  }
+]
