@@ -22,7 +22,7 @@ const CustomerIssues = ({
           Customer Tickets
         </h1>
         <div className="grid md:grid-cols-3 gap-10 pb-10">
-          <div className="col-span-2 grid grid-cols-2 order-last md:order-first  gap-6 pb-20">
+          <div className="md:col-span-2 grid md:grid-cols-2 order-last md:order-first  gap-6 pb-20">
             {customerIssue.length === 0 ? (
               <h1 className="flex items-center justify-center text-xl text-center text-gray-400">
                 No Ticket Found
