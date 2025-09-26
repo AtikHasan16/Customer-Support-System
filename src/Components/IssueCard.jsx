@@ -2,7 +2,6 @@ import React from "react";
 
 const IssueCard = ({ data, handleCard }) => {
   const handleClick = () => {
-    
     return handleCard(data);
   };
 
@@ -11,7 +10,7 @@ const IssueCard = ({ data, handleCard }) => {
       {/* card box */}
       <div
         onClick={handleClick}
-        className="p-6 space-y-4 rounded-lg bg-white shadow-lg shadow-gray-500 h-fit"
+        className="p-6 space-y-4 rounded-lg bg-white shadow-lg shadow-gray-500 h-full"
       >
         <div className="flex justify-between items-center flex-wrap">
           <h1 className="font-semibold text-xl">{data.title}</h1>

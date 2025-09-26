@@ -6,13 +6,12 @@ import Progressbar from "./Components/Progressbar";
 import Footer from "./Components/Footer";
 import Loading from "./Components/Loading";
 import { ToastContainer, toast } from "react-toastify";
+const customerIssuePromise = async () => {
+  const issuePromise = await fetch("/customersData.json");
+  return issuePromise.json();
+};
+const issuePromise = customerIssuePromise();
 function App() {
-  const customerIssuePromise = async () => {
-    const issuePromise = await fetch("/customersData.json");
-    return issuePromise.json();
-  };
-  const issuePromise = customerIssuePromise();
-
   // const [issueData, setIssueData] = useState();
   // console.log(issueData);
 
